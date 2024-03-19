@@ -1,4 +1,4 @@
-# MacOS for web developers
+# macOS for web developers
 
 ## Table of contents
 * [iTerm2](#iterm2)
