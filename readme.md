@@ -7,6 +7,8 @@
 * [NVM](#nvm)
 * [Node.js](#nodejs)
 * [Yarn](#yarn)
+* [TypeScript](#typescript)
+* [PNPM](#pnpm)
 
 ## iTerm2
 [Download iTerm2 ↗️](https://iterm2.com)
@@ -102,4 +104,16 @@ yarn remove <package>
 
 # Generates a lock file entry.
 yarn generate-lock-entry
+```
+
+### TypeScript
+
+```bash
+npm install --global typescript
+```
+
+### PNPM
+
+```bash
+npm install --global pnpm
 ```
