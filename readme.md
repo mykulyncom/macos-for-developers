@@ -84,7 +84,7 @@ nvm uninstall <version>
 npm install --global yarn
 ```
 
-### Use yarn
+#### Use yarn
 ```bash
 # Starting a new project
 yarn init
@@ -134,14 +134,14 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ## PHP
 
-### Install php
+#### Install php
 ```bash
 brew install php@8.1
 brew install php@8.2
 brew install php@8.3
 ```
 
-### Choose PHP version
+#### Choose PHP version
 ```bash
 brew unlink php@8.1
 brew link php@8.3
