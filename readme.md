@@ -9,6 +9,7 @@
 * [Yarn](#yarn)
 * [TypeScript](#typescript)
 * [PNPM](#pnpm)
+* [Homebre](#homebrew)
 
 ## iTerm2
 [Download iTerm2 ↗️](https://iterm2.com)
@@ -116,4 +117,15 @@ npm install --global typescript
 
 ```bash
 npm install --global pnpm
+```
+
+### Homebrew
+[Homebrew](https://brew.sh/) is a free and open-source software package management system that simplifies the installation of software on Apple's operating system, macOS, as well as Linux.
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+```bash
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/USERNAME/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
