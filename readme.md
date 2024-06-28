@@ -9,7 +9,8 @@
 * [Yarn](#yarn)
 * [TypeScript](#typescript)
 * [PNPM](#pnpm)
-* [Homebre](#homebrew)
+* [Homebrew](#homebrew)
+* [PHP](#php)
 
 ## iTerm2
 [Download iTerm2 ↗️](https://iterm2.com)
@@ -107,19 +108,19 @@ yarn remove <package>
 yarn generate-lock-entry
 ```
 
-### TypeScript
+## TypeScript
 
 ```bash
 npm install --global typescript
 ```
 
-### PNPM
+## PNPM
 
 ```bash
 npm install --global pnpm
 ```
 
-### Homebrew
+## Homebrew
 [Homebrew](https://brew.sh/) is a free and open-source software package management system that simplifies the installation of software on Apple's operating system, macOS, as well as Linux.
 
 ```bash
@@ -128,4 +129,19 @@ npm install --global pnpm
 ```bash
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/USERNAME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+## PHP
+
+### Install php
+```bash
+brew install php@8.1
+brew install php@8.2
+brew install php@8.3
+```
+
+### Choose PHP version
+```bash
+brew unlink php@8.1
+brew link php@8.3
 ```
