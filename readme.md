@@ -11,6 +11,7 @@
 * [PNPM](#pnpm)
 * [Homebrew](#homebrew)
 * [PHP](#php)
+* [Composer](#composer)
 
 ## iTerm2
 [Download iTerm2 ↗️](https://iterm2.com)
@@ -144,4 +145,19 @@ brew install php@8.3
 ```bash
 brew unlink php@8.1
 brew link php@8.3
+```
+
+## Composer
+[Composer](https://getcomposer.org/) is an application-level dependency manager for the PHP programming language that provides a standard format for managing dependencies of PHP software and required libraries.
+```bash
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+```
+```bash
+HASH=`curl -sS https://composer.github.io/installer.sig`
+```
+```bash
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+```
+```bash
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 ```
