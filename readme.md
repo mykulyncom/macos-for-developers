@@ -71,6 +71,9 @@ nvm use node
 nvm install <version>
 nvm use <version>
 
+# Set by default
+nvm alias default <version>
+
 # Show installed versions
 nvm list
 
